@@ -1,0 +1,26 @@
+.theme-header{
+    background: #fff;
+    color: #000;
+    line-height: 0px;
+    padding: 30px 0px;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 5px #d8d8d8;
+}
+.theme-header .theme-logo{
+    display: inline-block;
+    z-index: 999;
+    position: relative;
+    margin: 0;
+    height: 40px;
+    max-width: 80%;
+}
+.theme-header .theme-logo img {
+    position: relative;
+    max-height: 40px;
+    max-width: 100%;
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
